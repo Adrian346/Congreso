@@ -1,0 +1,179 @@
+/*estilos para todos los formularios*/
+body {
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fugaz One', cursive;
+    color: #fff;
+}
+
+h1 {
+    color: white;
+    font-family: 'Fugaz One', cursive;
+    text-align: center;
+
+}
+
+.desc {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #f44336;
+    color: #fff;
+    border-color: #f44336;
+}
+
+p {
+    color: #fff;
+    text-align: left;
+}
+
+/*Alta taller*/
+.alta-taller {
+    margin-top: 100px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 810px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}
+
+/*Alumno*/
+.alta-alumno {
+    margin-top: 100px;
+    position: absolute;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 645px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}
+
+.h4-alumno {
+    text-align: center;
+}
+
+.buscar-alumno {
+    top: 150%;
+    padding: 30px 40px;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}
+
+/*Expositores*/
+.alta-expositor {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 560px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}
+
+/*Eventos*/
+.alta-evento {
+    margin-top: 100px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 1000px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One',
+        cursive;
+}
+
+/*Staff*/
+.alta-staff {
+    margin-top: 100px;
+    position: absolute;
+    top: 610px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 730px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}
+.alta-paquetes{
+    margin-top: 100px;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 480px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}
+/*Listado*/
+table tbody{
+    background: rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+}
+.title1{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.listado{
+    margin-bottom: 20px;
+}
+.user{
+    color: black;
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav{
+    background: rgba(255, 255, 255, 0.91);
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+/* asist*/
+.asist{
+    margin-top: 100px;
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 380px;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    background: rgba(54, 54, 54, 0.89);
+    border-radius: 10px;
+    font-family: 'Fugaz One', cursive;
+}

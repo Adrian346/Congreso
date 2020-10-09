@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.49);
+    /*background-image: url(/images/c1.png);*/
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+  /*  background-attachment: fixed;*/
+    background-size: cover;
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h3{
+    color: lightgoldenrodyellow;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.staff{
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(0, 0, 0, 0.76);
+    padding: 30px;
+    height: 200px;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.78);
+    width: 100%;
+    height: 100%;
+     background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+
+.contenido{
+    z-index: 2;
+    position: relative;
+}
+
+
+.navar-routingAl{
+    z-index: 2;
+    position: relative;
+}
